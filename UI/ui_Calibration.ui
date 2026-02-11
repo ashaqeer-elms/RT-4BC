@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1899</width>
+    <height>1092</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="bg_est_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1881</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="title">
+    <string>Dark Noise Estimation</string>
+   </property>
+   <widget class="QLineEdit" name="bg_img_dir_path_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>30</y>
+      <width>570</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bg_img_dir_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>200</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dark Images Source Folder:</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="bg_img_open_dir_2">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>30</y>
+      <width>30</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bg_img_load_2">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>29</y>
+      <width>120</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Images</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bg_img_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>180</y>
+      <width>451</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bg_img_6">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>180</y>
+      <width>441</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bg_img_7">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>180</y>
+      <width>441</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bg_img_8">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>180</y>
+      <width>441</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bg_noise_est_2">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>30</y>
+      <width>210</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Estimate Dark Noise Pixel</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="bg_val_est_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>1861</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Dark Noise Values:</string>
+    </property>
+    <widget class="QLabel" name="bg_b1_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>60</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>BAND 1:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bg_val_b1_2">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>30</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="bg_b2_2">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>30</y>
+       <width>60</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>BAND 2:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bg_val_b2_2">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>30</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="bg_b3_2">
+     <property name="geometry">
+      <rect>
+       <x>930</x>
+       <y>30</y>
+       <width>60</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>BAND 3:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bg_val_b3_2">
+     <property name="geometry">
+      <rect>
+       <x>1000</x>
+       <y>30</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="bg_val_b4_2">
+     <property name="geometry">
+      <rect>
+       <x>1460</x>
+       <y>30</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="bg_b4_2">
+     <property name="geometry">
+      <rect>
+       <x>1390</x>
+       <y>30</y>
+       <width>60</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>BAND 4:</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="ref_est_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>560</y>
+     <width>1881</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="title">
+    <string>Reference Radiance Estimation</string>
+   </property>
+   <widget class="QLineEdit" name="ref_img_dir_path_2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>30</y>
+      <width>551</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ref_img_dir_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>230</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reference Images Source Folder:</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="ref_img_open_dir_2">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>30</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ref_img_load_2">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>29</y>
+      <width>120</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Images</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ref_img_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>180</y>
+      <width>451</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ref_img_6">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>180</y>
+      <width>441</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ref_img_7">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>180</y>
+      <width>441</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ref_img_8">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>180</y>
+      <width>441</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ref_rad_est_2">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>30</y>
+      <width>230</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Estimate Reference Radiance</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="ref_rad_val_est_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>1861</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Reference Radiance Values:</string>
+    </property>
+    <widget class="QLabel" name="ref_rad_b1_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>60</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>BAND 1:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="ref_rad_val_b1_2">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>30</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="ref_rad_b2_2">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>30</y>
+       <width>60</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>BAND 2:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="ref_rad_val_b2_2">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>30</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="ref_rad_b3_2">
+     <property name="geometry">
+      <rect>
+       <x>930</x>
+       <y>30</y>
+       <width>60</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>BAND 3:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="ref_rad_val_b3_2">
+     <property name="geometry">
+      <rect>
+       <x>1000</x>
+       <y>30</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="ref_rad_val_b4_2">
+     <property name="geometry">
+      <rect>
+       <x>1460</x>
+       <y>30</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="ref_rad_b4_2">
+     <property name="geometry">
+      <rect>
+       <x>1390</x>
+       <y>30</y>
+       <width>60</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>BAND 4:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="exp_status_label_ms_3">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>30</y>
+       <width>90</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>W sr^-1 m^-2</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="exp_status_label_ms_8">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>30</y>
+       <width>90</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>W sr^-1 m^-2</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="exp_status_label_ms_10">
+     <property name="geometry">
+      <rect>
+       <x>1160</x>
+       <y>30</y>
+       <width>90</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>W sr^-1 m^-2</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="exp_status_label_ms_11">
+     <property name="geometry">
+      <rect>
+       <x>1620</x>
+       <y>30</y>
+       <width>90</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>W sr^-1 m^-2</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

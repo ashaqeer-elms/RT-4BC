@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1896</width>
+    <height>1081</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="camera_connect_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>391</width>
+     <height>195</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="title">
+    <string>Connecting Camera...</string>
+   </property>
+   <widget class="QLabel" name="router_ip_add_2">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>32</y>
+      <width>129</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Router IP Address:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="router_ip_add_in_2">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>60</y>
+      <width>371</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cam_ip_add_2">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>92</y>
+      <width>136</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Camera IP Address:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="cam_ip_add_in_2">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>120</y>
+      <width>371</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="detect_2">
+    <property name="geometry">
+     <rect>
+      <x>183</x>
+      <y>152</y>
+      <width>81</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Detect</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="connect_2">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>152</y>
+      <width>81</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Connect</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="cam_view_5">
+   <property name="geometry">
+    <rect>
+     <x>411</x>
+     <y>0</y>
+     <width>730</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="title">
+    <string>CAM 1</string>
+   </property>
+   <widget class="QLabel" name="cam_image_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>631</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CAMERA 1</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="gain_slide_2">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>50</y>
+      <width>20</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="maximum">
+     <number>33</number>
+    </property>
+    <property name="pageStep">
+     <number>0</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Vertical</enum>
+    </property>
+    <property name="tickPosition">
+     <enum>QSlider::TickPosition::TicksAbove</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="exp_slide_2">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>300</y>
+      <width>20</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="maximum">
+     <number>12</number>
+    </property>
+    <property name="pageStep">
+     <number>0</number>
+    </property>
+    <property name="value">
+     <number>1</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Vertical</enum>
+    </property>
+    <property name="tickPosition">
+     <enum>QSlider::TickPosition::TicksAbove</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="exp_2">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>270</y>
+      <width>60</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>Exp (ms)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gain_2">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>20</y>
+      <width>40</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LayoutDirection::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>Gain</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gain_status_label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>29</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>G =</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gain_status_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>41</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="exp_status_label_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>20</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>E =</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="exp_status_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>20</y>
+      <width>41</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="exp_status_label_ms_3">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>20</y>
+      <width>20</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ms</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="cam_view_6">
+   <property name="geometry">
+    <rect>
+     <x>1161</x>
+     <y>0</y>
+     <width>731</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="title">
+    <string>CAM 2</string>
+   </property>
+   <widget class="QLabel" name="cam_image_10">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>631</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CAMERA 2</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="gain_slide_10">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>50</y>
+      <width>20</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="maximum">
+     <number>33</number>
+    </property>
+    <property name="pageStep">
+     <number>0</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Vertical</enum>
+    </property>
+    <property name="tickPosition">
+     <enum>QSlider::TickPosition::TicksAbove</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="exp_slide_10">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>300</y>
+      <width>20</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="maximum">
+     <number>12</number>
+    </property>
+    <property name="pageStep">
+     <number>0</number>
+    </property>
+    <property name="value">
+     <number>1</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Vertical</enum>
+    </property>
+    <property name="tickPosition">
+     <enum>QSlider::TickPosition::TicksAbove</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="exp_10">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>270</y>
+      <width>60</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>Exp (ms)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gain_10">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>20</y>
+      <width>40</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LayoutDirection::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>Gain</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gain_status_label_10">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>G =</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gain_status_10">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>41</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="exp_status_label_10">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>20</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>E =</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="exp_status_10">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>20</y>
+      <width>41</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="exp_status_label_ms_10">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>20</y>
+      <width>20</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ms</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="cam_view_7">
+   <property name="geometry">
+    <rect>
+     <x>411</x>
+     <y>550</y>
+     <width>731</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="title">
+    <string>CAM 3</string>
+   </property>
+   <widget class="QLabel" name="cam_image_14">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>631</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CAMERA 3</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="gain_slide_14">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>50</y>
+      <width>20</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="maximum">
+     <number>33</number>
+    </property>
+    <property name="pageStep">
+     <number>0</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Vertical</enum>
+    </property>
+    <property name="tickPosition">
+     <enum>QSlider::TickPosition::TicksAbove</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="exp_slide_14">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>300</y>
+      <width>20</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="maximum">
+     <number>12</number>
+    </property>
+    <property name="pageStep">
+     <number>0</number>
+    </property>
+    <property name="value">
+     <number>1</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Vertical</enum>
+    </property>
+    <property name="tickPosition">
+     <enum>QSlider::TickPosition::TicksAbove</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="exp_14">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>270</y>
+      <width>60</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>Exp (ms)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gain_14">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>20</y>
+      <width>40</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LayoutDirection::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>Gain</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gain_status_label_14">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>29</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>G =</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gain_status_14">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>41</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="exp_status_label_14">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>30</y>
+      <width>19</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>E =</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="exp_status_14">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>30</y>
+      <width>41</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="exp_status_label_ms_14">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>30</y>
+      <width>20</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ms</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="image_save_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>928</y>
+     <width>391</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="title">
+    <string>Raw Image Save</string>
+   </property>
+   <widget class="QLineEdit" name="folder_save_path_5">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>63</y>
+      <width>331</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="img_dir_5">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>32</y>
+      <width>103</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Output Folder:</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="img_save_act_5">
+    <property name="geometry">
+     <rect>
+      <x>241</x>
+      <y>96</y>
+      <width>139</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="text">
+     <string>  Save Image(s)</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="folder_save_open_dir_5">
+    <property name="geometry">
+     <rect>
+      <x>354</x>
+      <y>62</y>
+      <width>26</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="cam_view_8">
+   <property name="geometry">
+    <rect>
+     <x>1161</x>
+     <y>550</y>
+     <width>731</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="title">
+    <string>CAM 4</string>
+   </property>
+   <widget class="QLabel" name="cam_image_15">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>631</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CAMERA 4</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="gain_slide_15">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>50</y>
+      <width>20</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="maximum">
+     <number>33</number>
+    </property>
+    <property name="pageStep">
+     <number>0</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Vertical</enum>
+    </property>
+    <property name="tickPosition">
+     <enum>QSlider::TickPosition::TicksAbove</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="exp_slide_15">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>300</y>
+      <width>20</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="maximum">
+     <number>12</number>
+    </property>
+    <property name="pageStep">
+     <number>0</number>
+    </property>
+    <property name="value">
+     <number>1</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Vertical</enum>
+    </property>
+    <property name="tickPosition">
+     <enum>QSlider::TickPosition::TicksAbove</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="exp_15">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>270</y>
+      <width>60</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>Exp (ms)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gain_15">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>20</y>
+      <width>40</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LayoutDirection::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>Gain</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gain_status_label_15">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>G =</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gain_status_15">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>41</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="exp_status_label_15">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>30</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>E =</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="exp_status_15">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>30</y>
+      <width>41</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="exp_status_label_ms_15">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>30</y>
+      <width>20</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ms</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="image_overlay_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>804</y>
+     <width>391</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="title">
+    <string>Raw Image Alignment</string>
+   </property>
+   <widget class="QPushButton" name="img_overlay_open_2">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>40</y>
+      <width>210</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Image Alignment Settings</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="img_overlay_act_2">
+    <property name="geometry">
+     <rect>
+      <x>256</x>
+      <y>44</y>
+      <width>124</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Align Images</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

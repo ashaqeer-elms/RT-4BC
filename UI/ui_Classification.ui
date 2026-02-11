@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1907</width>
+    <height>1100</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="class_view">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>130</y>
+     <width>1471</width>
+     <height>851</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="title">
+    <string>Classification Viewer</string>
+   </property>
+   <widget class="QLabel" name="class_img">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>1451</width>
+      <height>821</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="img_legend">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>19</y>
+     <width>1461</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>CLASS_LEGEND</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="image_save_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>940</y>
+     <width>381</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="title">
+    <string>Classification Image Save</string>
+   </property>
+   <widget class="QCheckBox" name="img_save_act_4">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>110</y>
+      <width>140</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>  Save Image(s)</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="folder_save_open_dir_4">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>70</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="folder_save_path_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="img_dir_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>110</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Output Folder:</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="class_input">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>381</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="title">
+    <string>Input Classification Model</string>
+   </property>
+   <widget class="QLabel" name="model_file_dir">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>290</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Classification Model File Source (.joblib):</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="model_path_dir">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="model_load">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>110</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load File</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="model_open_dir">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>70</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="model_input_sel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>150</y>
+      <width>140</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Select Model Input:</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="model_input">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>190</y>
+      <width>361</width>
+      <height>251</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="model_apply">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>450</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apply</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QCheckBox" name="class_en_segment">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>1710</x>
+     <y>990</y>
+     <width>180</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string> Enable Segmentation</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="model_code_up">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>1780</x>
+     <y>1030</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Upload</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="class_en_segment_2">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>990</y>
+     <width>180</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Auto Classify</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

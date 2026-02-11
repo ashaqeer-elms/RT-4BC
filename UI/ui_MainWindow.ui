@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::WindowModality::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1917</width>
+    <height>1161</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="main_tab">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::FocusPolicy::NoFocus</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="camera_viewer">
+       <attribute name="title">
+        <string>Camera Viewer</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="calibration">
+       <attribute name="title">
+        <string>Calibration</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="raster_calculation">
+       <attribute name="title">
+        <string>Raster Calculation</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="classification">
+       <attribute name="title">
+        <string>Classification</string>
+       </attribute>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
